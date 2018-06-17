@@ -1,0 +1,170 @@
+body {
+    text-align: center;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: url("wall4.jpg");
+  background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: -3px 0 lightgrey, 0 3px lightgrey, 3px 0 lightgrey, 0 -3px lightgrey;
+}
+
+/*
+ * Styles for the Score Panel
+ */
+ .pointTracker {
+    margin: auto 10px auto 10px;
+    font-weight: 700;
+}
+.score-panel {
+    text-align: left;
+    width: 505px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 6px 12px 10px 0 rgba(46, 61, 73, 0.5);
+}
+.left-panel {
+  width: 85%;
+  height: 60px;
+  display: inline-block;
+  border-radius: 8px;
+  background: lightgrey;
+  padding: 15px 15px 15px 15px;
+}
+.pointTracker {
+  display: inline-block;
+}
+.left-panel .time {
+  display: inline-block;
+  float: right;
+  padding-right: 40px;
+}
+.time {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.score-panel .restart {
+  float: right;
+  cursor: pointer;
+  font-size: 25px;
+  width: 12%;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 8px;
+  background: lightgrey;
+}
+.restart {
+  margin-right: auto;
+  margin-left: auto;
+  width: 10%;
+  font-size: 22px;
+  border-radius: 8px;
+  background: lightgrey;
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+}
+.score-panel .hearts {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.score-panel .hearts li {
+    list-style: none;
+    display: inline-block;
+    color: red;
+    margin-right: 2px;
+}
+/* css for winner message */
+ul.hearts {
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.loseLife {
+  color: grey !important;
+}
+
+
+
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 140px;
+    z-index: 99;
+    width: 520px;
+    min-height: 400px;
+    background: lightgrey;
+    border-radius: 8px;
+    box-shadow: 20px 25px 30px 0 rgba(46, 61, 73, 0.5);
+}
+.modal-message {
+    text-align: center;
+    padding: 0px;
+    font-family:  'Neucha', cursive;
+    font-size: 1.4em;
+}
+.gameOver-message {
+  font-size: 1.8em;
+  margin-top: 16%;
+  margin-bottom: 20px;
+}
+#restartButton {
+  height: 60px;
+  width: 160px;
+  font-size: 1em;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 6px 12px 10px 0 rgba(46, 61, 73, 0.5);
+
+}
+#restartButton:hover, .restart:hover {
+  background-color: lightgrey;
+  box-shadow: 3px 5px 4px 0 rgba(46, 61, 73, 0.5);
+}
+
+footer {
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+}
