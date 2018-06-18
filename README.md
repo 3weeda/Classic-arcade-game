@@ -2,6 +2,7 @@
 
 ## Table of Contents
 * [Description](#description)
+* [Running Instructions](#RunningInstructions)
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 * [Author](#author)
@@ -12,6 +13,14 @@ This is a Classic arcade game built as the forth project in Udacity
 Front-End Nanodegree. The languages used are HTML, CSS and JavaScript,
 although it's mainly focused on Object-oriented JavaScript.
 It's  usable across modern desktop, tablet and phone browsers
+
+## Running Instructions
+
+* Open index.html in your browser
+* Js and Css files are linked to index.html
+* You'll see the game interface
+* Follow the gameplay instructions
+* It can be run across browsers and devices
 
 ## Instructions
 
