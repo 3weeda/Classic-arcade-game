@@ -1,6 +1,30 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic arcade game Project
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
+* [Description](#description)
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+* [Author](#author)
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Description
+
+This is a Classic arcade game built as the forth project in Udacity
+Front-End Nanodegree. The languages used are HTML, CSS and JavaScript,
+although it's mainly focused on Object-oriented JavaScript.
+It's  usable across modern desktop, tablet and phone browsers
+
+## Instructions
+
+* Use the keyboard arrow keys to move with the player
+* You want to cross the stone road to the water dodging enemies in order to score points
+* You only have three lives, every time a collision with an enemy happen you lose a life
+* When you lose all your three lifes, game is over and a modal message is displayed
+* You can click the play again button to restart the game
+
+## Contributing
+
+Udacity students are welcome to make pull requests
+
+## Author
+
+Ahmad Eweida -3weeda-
